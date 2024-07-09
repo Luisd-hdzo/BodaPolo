@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text  {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 450%;
+    letter-spacing: 20px;
+}
+
+/* .hero-text ::after {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #FFD700,1;
+    font-family: 'Brush Script MT', cursive;
+} */
+
+.hero-text h1 {
+    margin: 0;
+    font-family: 'Parisienne';
+   
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.section {
+    padding: 50px 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.white-background {
+    height: 100vh;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: #d3b292;
+
+}
+
+.horario{
+    margin-top: 20%;
+}
+
+
+.religiosa{
+    margin: auto;
+}
+
+.parroquia{
+    font-style: italic;
+    margin-bottom: 10%;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+.photo-gallery img {
+    margin: 10px;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.comoLlegar {
+    background-color: rgb(99, 74, 74);    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+.comoLlegarArea{
+    margin-top: 5%;
+}
+
+.comoLlegar-box {
+    border-color: #fff;
+    border-width: 20px;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
