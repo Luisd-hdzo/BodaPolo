@@ -95,19 +95,42 @@ body {
 .comoLlegar {
     background-color: rgb(99, 74, 74);    
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    flex-wrap: wrap;
+    flex-flow: column;
     height: 100vh;
+    color: #f8f8f8;
 }
 
 .comoLlegarArea{
-    margin-top: 5%;
+    margin-left: 10%;
+    
 }
 
 .comoLlegar-box {
+    border-style: solid;
     border-color: #fff;
-    border-width: 20px;
-    height: 50%;
-    width: 100%;
+    border-width: 2px;
+    height: 45%;
+    width: 90%;
     text-align: center;
+    margin-top: 3%;
+    font-size: xx-large;
+    
+}
+
+.icono{
+    margin-top:1%;
+    max-width: 200px;
+}
+
+.botonComoLlegar{
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #fff;
+    font-size: large;
+    color: #f8f8f8;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
